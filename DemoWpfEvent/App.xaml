@@ -4,6 +4,9 @@
              xmlns:local="clr-namespace:DemoWpfEvent"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <Style TargetType="Button">
+            <Setter Property="FontStyle" Value="Italic"/>
+            <Setter Property="FontSize" Value="20"/>
+        </Style>
     </Application.Resources>
 </Application>
