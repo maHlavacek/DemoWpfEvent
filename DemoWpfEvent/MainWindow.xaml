@@ -6,7 +6,18 @@
         xmlns:local="clr-namespace:DemoWpfEvent"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
+    <Grid x:Name="gridContainer" ButtonBase.Click="GridContainer_Click">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Button Margin="20" Grid.Row="0" Grid.Column="1" Content="Button1"></Button>
+        <Button Margin="20" Grid.Row="0" Grid.Column="2" Content="Button2"></Button>
     </Grid>
 </Window>

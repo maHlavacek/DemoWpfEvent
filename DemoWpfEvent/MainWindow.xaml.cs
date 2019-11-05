@@ -24,5 +24,15 @@ namespace DemoWpfEvent
         {
             InitializeComponent();
         }
+
+        protected override void OnInitialized(EventArgs e)
+        {
+            base.OnInitialized(e);
+        }
+
+        private void GridContainer_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
